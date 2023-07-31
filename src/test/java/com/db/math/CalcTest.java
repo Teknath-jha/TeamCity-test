@@ -19,4 +19,14 @@ public class CalcTest {
 	public void testAddNums2() {
 		assertNotEquals(200, calc.addNums(10, 10));
 	}
+	
+	@Test
+	public void testAddNums() {
+		assertEquals(150, calc.addNums(100, 50));
+	}
+
+	@Test
+	public void testAddNums2() {
+		assertNotEquals(20, calc.addNums(180, 10));
+	}
 }
