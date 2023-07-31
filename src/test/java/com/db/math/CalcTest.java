@@ -21,12 +21,12 @@ public class CalcTest {
 	}
 	
 	@Test
-	public void testAddNums() {
+	public void testAddNums3() {
 		assertEquals(150, calc.addNums(100, 50));
 	}
 
 	@Test
-	public void testAddNums2() {
+	public void testAddNums4() {
 		assertNotEquals(20, calc.addNums(180, 10));
 	}
 }
