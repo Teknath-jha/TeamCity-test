@@ -50,4 +50,9 @@ public class CalcTest {
 	public void testAddNums8() {
 		assertNotEquals(20, calc.addNums(180, 10));
 	}
+	
+	@Test
+	public void testAddNums9() {
+		assertNotEquals(20, calc.addNums(180, 10));
+	}
 }
